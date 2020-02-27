@@ -1,0 +1,7 @@
+version: 1
+scheduler:
+  period_sec: 5
+kafka:
+  server: '127.0.0.1'
+  port: '9092'
+  topic: 'events'

@@ -1,0 +1,38 @@
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: 'Kafka API'
+  description: 'API for an app for orders'
+paths:
+  /get_event_1_seq:
+    get:
+      operationId: app.get_event_1_seq
+      summary: Gets the event sequence based on the argument passed into the function
+      description: Getter method to get an event sequence
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: seqNum
+          description: integer passed into function
+          required: true
+          type: integer
+      responses:
+        200:
+          description: OK
+        400:
+          description: invalid input, wrong parameter type              
+  /get_latest_request_form:
+    get:
+      operationId: app.get_latest_request_form
+      summary: Gets the last event from repair requests
+      description: Getter method to get an event sequence
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+        400:
+          description: Uh Oh something went wrong

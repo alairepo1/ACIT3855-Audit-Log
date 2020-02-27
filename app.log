@@ -1,0 +1,3 @@
+2020-02-27 10:13:29,987 - basicLogger - INFO - Start get_latest_request_form request.
+2020-02-27 10:13:29,992 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-02-27T10:13:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 102.0, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+
