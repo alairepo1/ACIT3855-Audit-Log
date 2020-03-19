@@ -65,7 +65,7 @@ def get_latest_request_form():
     try:
         consumer = topic.get_simple_consumer(
             consumer_group="mygroup",
-            auto_offset_reset=pykafka.common.OffsetType.LATEST,
+            auto_offset_reset=pykafka.common.OffsetType.EARLIEST,
             reset_offset_on_start=False,
         )
         consumer.consume()
