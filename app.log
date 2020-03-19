@@ -1,3 +1,64 @@
 2020-02-27 10:13:29,987 - basicLogger - INFO - Start get_latest_request_form request.
 2020-02-27 10:13:29,992 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-02-27T10:13:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 102.0, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
 
+2020-03-19 12:28:27,901 - basicLogger - INFO - Start event_1 request.
+2020-03-19 12:28:35,867 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 12:28:36,041 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T12:00:24', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'A01055260', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:48:43,759 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:48:55,611 - basicLogger - INFO - Start event_1 request.
+2020-03-19 13:48:55,992 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:32:52', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:49:26,024 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:49:48,811 - basicLogger - INFO - Start event_1 request.
+2020-03-19 13:49:49,446 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:32:52', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:49:55,735 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:50:49,928 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:51:06,928 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:51:07,020 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:51:09,680 - basicLogger - INFO - Start event_1 request.
+2020-03-19 13:51:09,821 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:32:52', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:51:20,287 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:51:20,356 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:51:21,689 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:51:21,774 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:51:35,283 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:51:43,970 - basicLogger - INFO - Start event_1 request.
+2020-03-19 13:51:44,331 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:32:52', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:51:53,892 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:52:12,389 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:52:19,097 - basicLogger - INFO - Start event_1 request.
+2020-03-19 13:52:19,465 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:32:52', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:52:21,621 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:52:38,218 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:52:38,316 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:52:45,860 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:52:52,888 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:52:53', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:52:55,203 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:53:42,463 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:53:56,322 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:53:56,426 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:26:21', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:54:00,692 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:54:00,776 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:26:21', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:54:07,425 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:54:07,523 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:26:21', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:55:43,456 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:55:43,554 - basicLogger - ERROR - Something went wrong in get_latest_request_form
+2020-03-19 13:55:47,781 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:55:47,864 - basicLogger - ERROR - Something went wrong in get_latest_request_form
+2020-03-19 13:56:39,648 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:56:49,431 - basicLogger - INFO - Start event_1 request.
+2020-03-19 13:56:49,816 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:32:52', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:56:51,808 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:57:49,005 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:57:49,408 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:57:55,544 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:57:55,974 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:57:58,168 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:57:58,629 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:58:13,298 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:58:13,392 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:58:21,379 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:58:31,289 - basicLogger - INFO - Start get_latest_request_form request.
+2020-03-19 13:58:31,479 - basicLogger - INFO - {'type': 'order_form', 'datetime': '2020-03-19T20:27:16', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01055260', 'customer_name': 'Alex', 'price_id': 129.99, 'shoe_id': 'nike-abc123', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:58:36,350 - basicLogger - INFO - Start event_1 request.
+2020-03-19 13:58:36,739 - basicLogger - INFO - {'type': 'repair_form', 'datetime': '2020-03-19T20:32:52', 'payload': {'customer_address': '1234 granville street', 'customer_id': 'a01020052', 'customer_name': 'Alex', 'damage_description': 'Glue on the soles are gone.', 'shoe_type': 'Sneakers', 'timestamp': '2020-01-09T00:00:00'}}
+2020-03-19 13:58:39,770 - basicLogger - INFO - Start get_latest_request_form request.
