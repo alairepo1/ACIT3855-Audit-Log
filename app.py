@@ -61,22 +61,16 @@ def get_event_1_seq(seqNum):
 
 def get_latest_request_form():
     ''' Gets the latest repair request from kafka producer'''
-    logger.info('Start get_latest_request_form request.')
-    try:
-        consumer = topic.get_simple_consumer(
-            consumer_group="mygroup",
-            auto_offset_reset=pykafka.common.OffsetType.EARLIEST,
-            reset_offset_on_start=False,
-        )
-        consumer.consume()
-        consumer.commit_offsets()
-        for message in consumer:
-            msg = json.loads(message.value.decode('utf-8', errors='replace'))
-            logger.info(msg)
-            return msg
-    except:
-        logger.error('Something went wrong in get_latest_request_form')
-        return 404
+    consumer = topic.get_simple_consumer(
+        consumer_group="mygroup",
+        auto_offset_reset=pykafka.common.OffsetType.LATEST -1,
+        reset_offset_on_start=True
+    )
+    consumer.consume()
+    consumer.commit_offsets()
+    for message in consumer:
+        msg = json.loads(message.value.decode('utf-8', errors='replace'))
+        return msg
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
